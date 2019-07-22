@@ -14,6 +14,8 @@ print(svm.score(X_train, y_train))
 print(svm.score(X_test, y_test))
 
 ##Sentiment analysis for movie reviews
+#explore the probabilities outputted by logistic regression
+#y contains labels for whether the review sentiment is positive (+1) or negative (-1)
 # Instantiate logistic regression and train
 lr = LogisticRegression()
 lr.fit(X,y)
